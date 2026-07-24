@@ -1760,13 +1760,28 @@ def build_home():
       <div class="mt-2"><a class="text-link" href="our-doctors.html">Meet our doctors &rarr;</a></div>
     </div>
     <div class="reveal d2">
-      <div class="split-media" style="aspect-ratio:4/5;display:grid;place-items:center;background:linear-gradient(160deg,var(--ink),var(--ink-deep));">
-        {neuro_field(0.9)}
-        <div style="position:relative;z-index:1;text-align:center;padding:2rem;">
-          {brand_mark('hero')}
-          <p style="font-family:var(--font-display);font-style:italic;color:var(--gold);font-size:1.5rem;margin-top:1rem;max-width:22ch;">The brain deserves a specialist's full attention.</p>
+      <div class="eeg-console" role="img" aria-label="Illustration: a live EEG recording drawing five brainwave channels — delta, theta, alpha, beta, and gamma — the kind of neurodiagnostic testing performed in our office.">
+        <div class="eeg-inner" aria-hidden="true">
+          <div class="eeg-head">
+            <span class="eeg-title">Neurodiagnostic Suite &middot; Live EEG</span>
+            <span class="eeg-status"><i></i>Monitoring <b class="eeg-clock">00:00</b></span>
+          </div>
+          <div class="eeg-screen">
+            <canvas class="eeg-canvas"></canvas>
+            <div class="eeg-labels">
+              <span><b>&delta;</b> Delta</span>
+              <span><b>&theta;</b> Theta</span>
+              <span><b>&alpha;</b> Alpha</span>
+              <span><b>&beta;</b> Beta</span>
+              <span><b>&gamma;</b> Gamma</span>
+            </div>
+            <div class="eeg-event"></div>
+          </div>
+          <div class="eeg-foot"><span>256 samples/sec</span><span>5 channels</span><span>Recorded on-site</span></div>
         </div>
       </div>
+      <p class="eeg-caption">A glimpse of our on-site neurodiagnostics —
+      <a class="text-link" href="services/eeg.html">explore EEG &amp; seizure testing &rarr;</a></p>
     </div>
   </div>
 </section>

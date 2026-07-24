@@ -1270,3 +1270,48 @@ a.team-photo { display: block; cursor: pointer; }
 .orb-glow { inset: 4%;
   background: radial-gradient(circle, rgba(46,156,142,0.36), rgba(231,196,106,0.1) 55%, transparent 74%); }
 .hero-art { max-width: 580px; }
+
+/* ============================================================
+   LIVE EEG CONSOLE — signature showpiece for the Our Story section
+   ============================================================ */
+.eeg-console { position: relative; border-radius: 26px; padding: 1.15rem 1.25rem 1.05rem;
+  background:
+    radial-gradient(140% 160% at 85% -10%, rgba(46,156,142,0.18), transparent 55%),
+    radial-gradient(120% 140% at 0% 110%, rgba(231,196,106,0.08), transparent 50%),
+    linear-gradient(160deg, #0D3540, #071E26 72%);
+  border: 1px solid rgba(231,196,106,0.38);
+  box-shadow: 0 46px 100px -42px rgba(8,38,47,0.75), inset 0 1px 0 rgba(243,236,220,0.07); }
+.eeg-console::before, .eeg-console::after { content: ""; position: absolute; width: 15px; height: 15px; opacity: 0.75; }
+.eeg-console::before { top: 9px; left: 9px; border-top: 1.5px solid var(--gold); border-left: 1.5px solid var(--gold); border-top-left-radius: 6px; }
+.eeg-console::after { bottom: 9px; right: 9px; border-bottom: 1.5px solid var(--gold); border-right: 1.5px solid var(--gold); border-bottom-right-radius: 6px; }
+
+.eeg-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 0.75rem; }
+.eeg-title { font-size: 0.64rem; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(243,236,220,0.78); }
+.eeg-status { display: inline-flex; align-items: center; gap: 0.45rem; font-size: 0.64rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); white-space: nowrap; }
+.eeg-status i { width: 8px; height: 8px; border-radius: 50%; background: var(--gold);
+  box-shadow: 0 0 10px rgba(231,196,106,0.9); animation: eegPulse 1.7s ease-in-out infinite; }
+.eeg-status .eeg-clock { font-variant-numeric: tabular-nums; color: rgba(243,236,220,0.92); margin-left: 0.15rem; }
+@keyframes eegPulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.45; transform: scale(0.8); } }
+
+.eeg-screen { position: relative; height: 330px; border-radius: 16px; overflow: hidden;
+  background: rgba(4,19,25,0.6); border: 1px solid rgba(243,236,220,0.08); }
+.eeg-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.eeg-labels { position: absolute; left: 0.85rem; top: 0; bottom: 0; display: flex; flex-direction: column;
+  justify-content: space-around; pointer-events: none; z-index: 2; }
+.eeg-labels span { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(243,236,220,0.5); }
+.eeg-labels b { font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 0.95rem; color: var(--gold); margin-right: 0.4rem; }
+.eeg-event { position: absolute; right: 0.9rem; top: 18%; z-index: 2; padding: 0.34rem 0.75rem; border-radius: 999px;
+  background: rgba(8,38,47,0.92); border: 1px solid rgba(231,196,106,0.6); color: var(--gold);
+  font-size: 0.62rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; white-space: nowrap;
+  opacity: 0; transform: translateY(4px); transition: opacity 0.45s ease, transform 0.45s ease, top 0.45s ease; }
+.eeg-event.show { opacity: 1; transform: none; }
+
+.eeg-foot { display: flex; justify-content: space-between; gap: 0.8rem; margin-top: 0.75rem;
+  font-size: 0.58rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(243,236,220,0.45); }
+.eeg-caption { margin-top: 1rem; font-size: 0.9rem; color: var(--muted); text-align: center; }
+
+@media (max-width: 560px) {
+  .eeg-screen { height: 260px; }
+  .eeg-foot span:nth-child(2) { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .eeg-status i { animation: none; } }

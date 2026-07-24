@@ -444,3 +444,132 @@
     }
   }
 })();
+
+// Live EEG console (Our Story section): five band-limited brainwave channels
+// drawn in real time on canvas — deterministic waves (no data), a sweeping
+// cursor, waxing alpha spindles, and occasional labeled bursts. Runs only
+// while visible; renders a single static frame under prefers-reduced-motion.
+(function () {
+  var console_ = document.querySelector('.eeg-console');
+  if (!console_) return;
+  var canvas = console_.querySelector('.eeg-canvas');
+  var clock = console_.querySelector('.eeg-clock');
+  var chip = console_.querySelector('.eeg-event');
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // channel: [label, hz, amplitude, color, harmonic seed]
+  var CH = [
+    ['Delta', 1.4, 30, 'rgba(243,236,220,0.85)', 1.7],
+    ['Theta', 4.6, 22, 'rgba(127,196,182,0.9)', 2.3],
+    ['Alpha', 10, 24, 'rgba(231,196,106,0.95)', 3.1],
+    ['Beta',  19, 12, 'rgba(96,168,154,0.85)', 4.7],
+    ['Gamma', 34, 7,  'rgba(70,128,117,0.9)', 5.3]
+  ];
+  var SPEED = 92; // px per second
+  var W = 0, H = 0;
+
+  function size() {
+    var dpr = Math.min(2, window.devicePixelRatio || 1);
+    var r = canvas.getBoundingClientRect();
+    W = Math.max(1, r.width); H = Math.max(1, r.height);
+    canvas.width = W * dpr; canvas.height = H * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  // smooth deterministic pseudo-noise
+  function noise(t, s) {
+    return Math.sin(t * 2.1 + s) * 0.5 + Math.sin(t * 3.83 + s * 2.7) * 0.32 + Math.sin(t * 7.31 + s * 5.1) * 0.18;
+  }
+  var burst = { ch: -1, until: 0 };
+  function sample(i, t) {
+    var c = CH[i];
+    var v = Math.sin(t * c[1] * 6.28318) + 0.4 * Math.sin(t * c[1] * 1.83 * 6.28318 + c[4]);
+    v += noise(t, c[4] * 13.7) * 0.55;
+    var env = 1;
+    if (i === 2) env = 0.42 + 0.58 * Math.pow(Math.max(0, Math.sin(t * 0.9 + 1.2)), 2); // alpha spindles
+    if (i === burst.ch && t < burst.until) {
+      var k = Math.sin(((burst.until - t) / 1.1) * Math.PI); // rise & fall
+      env *= 1 + 1.9 * Math.max(0, k);
+    }
+    return v * c[2] * env * 0.5;
+  }
+
+  function draw(now) {
+    ctx.clearRect(0, 0, W, H);
+    // hairline grid
+    ctx.strokeStyle = 'rgba(243,236,220,0.05)'; ctx.lineWidth = 1;
+    for (var gx = W - ((now * SPEED) % 64); gx > 0; gx -= 64) {
+      ctx.beginPath(); ctx.moveTo(gx, 0); ctx.lineTo(gx, H); ctx.stroke();
+    }
+    var startX = 78; // clear of the channel labels
+    for (var i = 0; i < CH.length; i++) {
+      var base = H * (i + 0.5) / CH.length;
+      ctx.strokeStyle = 'rgba(243,236,220,0.06)';
+      ctx.beginPath(); ctx.moveTo(startX, base); ctx.lineTo(W, base); ctx.stroke();
+      // echo pass (soft glow) then crisp pass
+      for (var pass = 0; pass < 2; pass++) {
+        ctx.beginPath();
+        for (var x = startX; x <= W; x += 2) {
+          var t = now - (W - x) / SPEED;
+          var y = base - sample(i, t);
+          x === startX ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        }
+        ctx.strokeStyle = CH[i][3];
+        ctx.globalAlpha = pass === 0 ? 0.14 : 0.95;
+        ctx.lineWidth = pass === 0 ? 4 : 1.5;
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+      }
+    }
+    // sweep cursor at the write head
+    var grad = ctx.createLinearGradient(W - 46, 0, W, 0);
+    grad.addColorStop(0, 'rgba(231,196,106,0)');
+    grad.addColorStop(1, 'rgba(231,196,106,0.16)');
+    ctx.fillStyle = grad; ctx.fillRect(W - 46, 0, 46, H);
+    ctx.fillStyle = 'rgba(231,196,106,0.75)'; ctx.fillRect(W - 1.5, 0, 1.5, H);
+  }
+
+  var t0 = null, elapsed = 0, running = false, rafId = 0, nextBurst = 4, inView = false;
+  function frame(ms) {
+    if (!running) return;
+    if (t0 === null) t0 = ms;
+    var now = elapsed + (ms - t0) / 1000;
+    draw(now);
+    if (clock) {
+      var s = Math.floor(now);
+      clock.textContent = ('0' + Math.floor(s / 60)).slice(-2) + ':' + ('0' + (s % 60)).slice(-2);
+    }
+    if (now > nextBurst) {
+      var pick = [2, 2, 0, 1, 3][Math.floor(Math.random() * 5)]; // alpha-weighted
+      burst = { ch: pick, until: now + 1.1 };
+      nextBurst = now + 5 + Math.random() * 4;
+      if (chip) {
+        chip.textContent = CH[pick][0] + ' activity · ' + CH[pick][1] + ' Hz';
+        chip.style.top = (H * (pick + 0.5) / CH.length / H * 100 - 9) + '%';
+        chip.classList.add('show');
+        setTimeout(function () { chip.classList.remove('show'); }, 2400);
+      }
+    }
+    lastNow = now;
+    rafId = requestAnimationFrame(frame);
+  }
+  var lastNow = 0;
+  function start() { if (!running) { running = true; t0 = null; rafId = requestAnimationFrame(frame); } }
+  function stop() { if (running) { running = false; elapsed = lastNow; if (rafId) cancelAnimationFrame(rafId); } }
+
+  size();
+  window.addEventListener('resize', function () { size(); if (reduced) draw(14.2); });
+  if (reduced) { draw(14.2); return; } // one elegant static frame
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      inView = en.isIntersecting;
+      inView && !document.hidden ? start() : stop();
+    });
+  }, { threshold: 0.12 });
+  io.observe(console_);
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) stop(); else if (inView) start();
+  });
+})();
