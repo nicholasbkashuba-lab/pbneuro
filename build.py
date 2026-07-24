@@ -340,6 +340,39 @@ def wave_divider(variant="cream"):
             f'<svg viewBox="0 0 1200 40"><path d="{path}"/>'
             f'<circle class="wave-spark" cx="534" cy="3" r="4"/></svg></div>')
 
+def hero_orb():
+    """Hero artwork: a luminous neural constellation — brain silhouette, slow-turning
+    orbital rings, glowing nodes and traveling signal pulses. Purely decorative."""
+    N = [(260,150),(200,180),(320,180),(170,240),(350,240),(220,230),(300,230),
+         (260,210),(190,300),(330,300),(240,290),(280,290),(260,340),(210,350),(310,350)]
+    E = [(0,1),(0,2),(1,3),(2,4),(1,5),(2,6),(5,7),(6,7),(3,8),(4,9),(5,10),(6,11),
+         (10,12),(11,12),(8,13),(9,14),(12,13),(12,14),(7,10),(7,11)]
+    edges = "".join(
+        f'<path id="orbE{i}" class="orb-axon" d="M{N[a][0]},{N[a][1]} L{N[b][0]},{N[b][1]}"/>'
+        for i, (a, b) in enumerate(E))
+    nodes = "".join(f'<circle class="orb-node" cx="{x}" cy="{y}" r="3"/>' for x, y in N)
+    pulses = "".join(
+        f'<circle class="orb-signal" r="3.2"><animateMotion dur="{d}s" repeatCount="indefinite" '
+        f'begin="{i*0.9}s"><mpath href="#orbE{e}"/></animateMotion></circle>'
+        for i, (e, d) in enumerate([(0,3.2),(4,4.1),(9,3.6),(13,4.4),(17,3.9)]))
+    # satellites riding the outer rings
+    sats = "".join(
+        f'<circle class="orb-sat" cx="{x}" cy="{y}" r="4"/>'
+        for x, y in [(260,40),(455,320),(80,160),(430,120),(110,370)])
+    sil = ('<g transform="translate(90,62)">'
+           '<path class="orb-sil" d="M170,44 C210,44 244,60 260,92 C276,122 274,146 268,164 '
+           'C282,178 286,204 272,224 C285,242 281,272 258,286 C246,300 224,306 200,302 '
+           'C190,314 150,314 140,302 C116,306 94,300 82,286 C59,272 55,242 68,224 '
+           'C54,204 58,178 72,164 C66,146 64,122 80,92 C96,60 130,44 170,44 Z"/>'
+           '<path class="orb-fissure" d="M170,50 C177,96 163,132 170,172 C177,210 165,252 170,300"/></g>')
+    return (
+        '<div class="orb-glow"></div>'
+        '<svg viewBox="0 0 520 520" aria-hidden="true" focusable="false">'
+        '<g class="orb-rings"><circle class="orb-ring" cx="260" cy="250" r="238"/>'
+        '<circle class="orb-ring r2" cx="260" cy="250" r="196"/></g>'
+        '<g class="orb-rings rev"><circle class="orb-ring r2" cx="260" cy="250" r="160"/></g>'
+        f'{sil}<g class="orb-net">{edges}{nodes}{pulses}</g>{sats}</svg>')
+
 def page_hero(eyebrow, title, lede, crumbs_html=""):
     return f"""
 <section class="page-hero">
@@ -1576,6 +1609,21 @@ def build_home():
           <span class="pw-go">&rarr;</span>
         </a>''' for num, title, kick, desc, tags, url, badge in pathways)
 
+    # Featured physicians for the homepage strip (name-matched into DOCTORS).
+    featured = ["Paul Winner", "Carl Sadowsky", "Tara Becker", "Michael Alosilla", "Manisha Korb"]
+    by_name = {d["name"]: d for d in DOCTORS}
+    spec_cards = "".join(
+        f'''<a class="spec-card reveal d{i%3+1}" href="doctors/{_doc_slug(n)}.html">
+          <span class="spec-photo"><img src="assets/team/{_doc_slug(n)}.jpg" alt="Dr. {_plain(n)}, {_plain(by_name[n]["creds"])}" width="320" height="320" loading="lazy" decoding="async"></span>
+          <span class="spec-name">Dr. {by_name[n]["name"].split()[-1]}</span>
+          <span class="spec-role">{by_name[n]["focus"][0]}</span>
+        </a>''' for i, n in enumerate(featured)) + '''
+        <a class="spec-card spec-all reveal d3" href="our-doctors.html">
+          <span class="spec-all-num">9</span>
+          <span class="spec-name">All Our Physicians</span>
+          <span class="spec-role">Meet the full team &rarr;</span>
+        </a>'''
+
     body = f"""
 <main>
 <section class="hero">
@@ -1585,27 +1633,29 @@ def build_home():
   </div>
   <div class="hero-scrim"></div>
   <div class="wrap hero-inner">
-    <div class="hero-panel">
-      <span class="eyebrow on-dark">Compassionate Neurological Care · South Florida</span>
-      <h1>
-        <span class="line"><span>Clarity</span></span>
-        <span class="line"><span>for the</span></span>
-        <span class="line"><span><em class="accent">mind.</em></span></span>
-      </h1>
-      <p class="hero-tag">&ldquo;Treating the patient, not just the disease.&rdquo;</p>
-      <p class="hero-sub">Board-certified neurologists caring for the brain, spine, and nervous
-      system for more than 25 years — with an on-site research institute bringing tomorrow's
-      therapies to the Palm Beaches today.</p>
-      <div class="hero-ctas">
-        <a class="btn btn-coral" href="appointments.html">Request Appointment <span class="arr">&rarr;</span></a>
-        <a class="btn btn-ghost" href="#bodymap">Explore Conditions</a>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow on-dark">Compassionate Neurological Care · South Florida</span>
+        <h1>
+          <span class="line"><span>Clarity</span></span>
+          <span class="line"><span>for the</span></span>
+          <span class="line"><span><em class="accent">mind.</em></span></span>
+        </h1>
+        <p class="hero-tag">&ldquo;Treating the patient, not just the disease.&rdquo;</p>
+        <p class="hero-sub">Board-certified neurologists caring for the brain, spine, and nervous
+        system for more than 25 years — with an on-site research institute bringing tomorrow's
+        therapies to the Palm Beaches today.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-coral" href="appointments.html">Request Appointment <span class="arr">&rarr;</span></a>
+          <a class="btn btn-ghost" href="#bodymap">Explore Conditions</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong data-count="25" data-suffix="+">25+</strong><span>Years of Expertise</span></div>
+          <div><strong>Board</strong><span>Certified Neurologists</span></div>
+          <div><strong>On-site</strong><span>Clinical Research</span></div>
+        </div>
       </div>
-    </div>
-    <div class="hero-meta">
-      <div><strong data-count="25" data-suffix="+">25+</strong><span>Years of Expertise</span></div>
-      <div><strong>Board</strong><span>Certified Neurologists</span></div>
-      <div><strong>On-site</strong><span>Clinical Research</span></div>
-      <div><strong>New</strong><span>Patients Welcome</span></div>
+      <div class="hero-art" aria-hidden="true">{hero_orb()}</div>
     </div>
   </div>
   <div class="scroll-hint"><span></span></div>
@@ -1613,16 +1663,18 @@ def build_home():
 
 <div class="ins-strip"><div class="ticker">{ticker}</div></div>
 
-<section class="section on-paper">
-  <div class="wrap">
-    <div class="section-head center reveal">
+<section class="section on-paper manifesto">
+  <div class="wrap manifesto-grid">
+    <div class="reveal">
       <span class="eyebrow">{TAGLINE}</span>
-      <h2>Committed to Your <em class="accent">Brain Health</em></h2>
-      <p class="lede" style="max-width:64ch;">Palm Beach Neurology is a comprehensive neurological
-      practice committed to preventing and treating every element of neurological disease. As one of
-      the most experienced neurological practices in the United States, our physicians and staff stay
-      on the cutting edge of research and patient care — treating every patient with respect, empathy,
-      and professionalism.</p>
+      <h2 class="manifesto-line">Treating the <em class="accent">patient</em>,<br>not just the disease.</h2>
+    </div>
+    <div class="reveal d2 manifesto-body">
+      <p>Palm Beach Neurology is a comprehensive neurological practice committed to preventing and
+      treating every element of neurological disease. As one of the most experienced neurological
+      practices in the United States, our physicians and staff stay on the cutting edge of research
+      and patient care — treating every patient with respect, empathy, and professionalism.</p>
+      <a class="text-link" href="about.html">Our story &rarr;</a>
     </div>
   </div>
 </section>
@@ -1673,6 +1725,18 @@ def build_home():
     </div>
   </div>
   <script type="application/json" id="bm-data">{bm_json}</script>
+</section>
+
+<section class="section" id="specialists">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Meet Your Specialists</span>
+      <h2>Subspecialty experts, <em class="accent">one&nbsp;team</em></h2>
+      <p class="lede">Neurology is too broad for one doctor to master it all — so each of our
+      physicians concentrates on the conditions they know most deeply.</p>
+    </div>
+    <div class="spec-strip">{spec_cards}</div>
+  </div>
 </section>
 
 <section class="section on-cream">

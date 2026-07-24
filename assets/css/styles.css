@@ -1159,3 +1159,114 @@ a.team-photo { display: block; cursor: pointer; }
 .mini-faq .mfq-a p { color: var(--muted); font-size: 0.97rem; line-height: 1.7; }
 .mini-faq .mfq-a a { color: var(--coral-text); font-weight: 600; }
 .on-cream .mini-faq summary { color: var(--ink); }
+
+/* ============================================================
+   PREMIUM V2 — cinematic hero, editorial sections, luxe details
+   ============================================================ */
+::selection { background: rgba(231,196,106,0.85); color: #08262F; }
+
+/* ---- Hero: full-bleed asymmetric, huge type, neural orb ---- */
+.hero-grid { display: grid; grid-template-columns: minmax(0,1.04fr) minmax(0,0.92fr); gap: clamp(2rem,5vw,5.5rem); align-items: center; }
+.hero-copy { text-align: left; }
+.hero-copy h1 { font-size: clamp(3.6rem, 7.4vw, 6.8rem); line-height: 0.98; letter-spacing: -0.02em; max-width: none; }
+.hero-copy .hero-tag { margin: 1.7rem 0 0.8rem; }
+.hero .hero-meta { justify-content: flex-start; margin: 2.4rem 0 0; width: 100%; max-width: 620px; }
+.hero-meta div:first-child { padding-left: 0; }
+.hero-ctas { margin-top: 2.1rem; }
+
+.hero-art { position: relative; width: 100%; max-width: 560px; justify-self: end;
+  animation: orbFloat 11s ease-in-out infinite alternate; }
+.hero-art svg { width: 100%; height: auto; display: block; overflow: visible; }
+.orb-glow { position: absolute; inset: 6%; border-radius: 50%; z-index: -1;
+  background: radial-gradient(circle, rgba(46,156,142,0.30), rgba(231,196,106,0.08) 55%, transparent 72%);
+  filter: blur(34px); }
+.orb-ring { fill: none; stroke: rgba(231,196,106,0.26); stroke-width: 1; stroke-dasharray: 2 9; }
+.orb-ring.r2 { stroke: rgba(46,156,142,0.30); stroke-dasharray: 1 7; }
+.orb-rings { transform-origin: 260px 250px; animation: orbSpin 90s linear infinite; }
+.orb-rings.rev { animation-direction: reverse; animation-duration: 130s; }
+.orb-sil { fill: rgba(243,236,220,0.035); stroke: rgba(243,236,220,0.4); stroke-width: 1.3; }
+.orb-fissure { fill: none; stroke: rgba(243,236,220,0.22); stroke-width: 1.1; stroke-linecap: round; }
+.orb-axon { stroke: rgba(46,156,142,0.42); stroke-width: 1; fill: none; }
+.orb-node { fill: rgba(231,196,106,0.8); filter: drop-shadow(0 0 4px rgba(231,196,106,0.55)); }
+.orb-signal { fill: var(--gold); filter: drop-shadow(0 0 7px rgba(231,196,106,0.95)); }
+.orb-sat { fill: rgba(46,156,142,0.85); filter: drop-shadow(0 0 6px rgba(46,156,142,0.8)); }
+@keyframes orbSpin { to { transform: rotate(360deg); } }
+@keyframes orbFloat { from { transform: translateY(-10px); } to { transform: translateY(12px); } }
+
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-copy h1 { font-size: clamp(3rem, 12.5vw, 4.2rem); }
+  .hero-art { max-width: 300px; margin: 2.6rem auto 0; justify-self: center; }
+  .hero .hero-meta { max-width: none; }
+}
+
+/* ---- Editorial manifesto ---- */
+.manifesto-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: clamp(2.5rem,6vw,6rem); align-items: end; }
+.manifesto-line { font-size: clamp(2.5rem, 5vw, 4.3rem); line-height: 1.08; letter-spacing: -0.018em; }
+.manifesto-body p { color: var(--muted); font-size: 1.05rem; line-height: 1.75; margin-bottom: 1.2rem; }
+@media (max-width: 900px) { .manifesto-grid { grid-template-columns: 1fr; align-items: start; } }
+
+/* ---- Specialists strip (real faces on the homepage) ---- */
+.spec-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: clamp(1rem, 2vw, 1.6rem); }
+.spec-card { display: flex; flex-direction: column; text-decoration: none; text-align: center;
+  transition: transform 0.35s cubic-bezier(.2,.8,.2,1); }
+.spec-card:hover { transform: translateY(-6px); }
+.spec-photo { display: block; aspect-ratio: 1; border-radius: 999px 999px 22px 22px; overflow: hidden;
+  background: linear-gradient(170deg, var(--mist), var(--cream)); border: 1px solid var(--line);
+  box-shadow: 0 22px 50px -28px rgba(8,38,47,0.4); margin-bottom: 0.9rem; }
+.spec-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s cubic-bezier(.2,.8,.2,1); }
+.spec-card:hover .spec-photo img { transform: scale(1.06); }
+.spec-name { font-family: var(--font-display); font-weight: 600; font-size: 1.12rem; color: var(--ink); }
+.spec-role { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--coral-text); margin-top: 0.25rem; }
+.spec-card:hover .spec-name { color: var(--coral-text); }
+.spec-all { justify-content: center; border-radius: 999px 999px 22px 22px; min-height: 100%;
+  background: radial-gradient(120% 130% at 50% 0%, var(--ink-soft), var(--ink-deep));
+  border: 1px solid rgba(231,196,106,0.4); padding: 1.4rem 1rem; box-shadow: 0 22px 50px -28px rgba(8,38,47,0.55); }
+.spec-all .spec-all-num { font-family: var(--font-display); font-size: clamp(2.6rem, 4vw, 3.6rem); color: var(--gold); line-height: 1; }
+.spec-all .spec-name { color: var(--cream); margin-top: 0.5rem; }
+.spec-all .spec-role { color: var(--gold); }
+.spec-all:hover .spec-name { color: var(--gold); }
+
+/* ---- Type scale & section confidence ---- */
+.section-head h2 { font-size: clamp(2.2rem, 4.3vw, 3.5rem); letter-spacing: -0.015em; }
+.page-hero h1 { font-size: clamp(2.9rem, 6.2vw, 5.2rem); letter-spacing: -0.018em; }
+.page-hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(231,196,106,0.5), transparent); }
+.cta-inner h2 { font-size: clamp(2.6rem, 5.2vw, 4.4rem); letter-spacing: -0.015em; }
+
+/* ---- Luxe buttons: gradient depth + shine sweep ---- */
+.btn { position: relative; overflow: hidden; }
+.btn-coral { background: linear-gradient(165deg, var(--coral) 0%, var(--coral-deep) 115%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.16), 0 18px 40px -16px rgba(22,112,99,0.75); }
+.btn-coral:hover { background: linear-gradient(165deg, var(--coral-deep) 0%, var(--coral-deep) 100%); }
+.btn-coral::after { content: ""; position: absolute; top: 0; left: -70%; width: 42%; height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255,255,255,0.26), transparent);
+  transform: skewX(-20deg); transition: left 0.65s ease; pointer-events: none; }
+.btn-coral:hover::after { left: 135%; }
+
+/* ---- Card depth refinement ---- */
+.cond-card:hover, .svc-feature:hover { box-shadow: 0 34px 80px -36px rgba(8,38,47,0.42), 0 10px 28px -16px rgba(8,38,47,0.2); }
+.side-card { box-shadow: 0 30px 70px -34px rgba(8,38,47,0.35), 0 8px 22px -14px rgba(8,38,47,0.16); }
+
+/* ---- Scroll progress hairline ---- */
+.scroll-progress { position: fixed; top: 0; left: 0; height: 2px; width: 0; z-index: 1500;
+  background: linear-gradient(90deg, var(--gold), var(--sea)); pointer-events: none;
+  box-shadow: 0 0 8px rgba(231,196,106,0.5); }
+
+@media (prefers-reduced-motion: reduce) {
+  .orb-rings, .orb-rings.rev, .hero-art { animation: none; }
+  .btn-coral::after { display: none; }
+}
+
+/* V2 polish: give the line-reveal room for descenders (the y in "Clarity"),
+   tighten the hero's vertical rhythm, and strengthen the orb's presence. */
+.hero h1 .line { padding-bottom: 0.09em; margin-bottom: -0.09em; }
+.hero-copy h1 { font-size: clamp(3.4rem, 7vw, 6.2rem); }
+.hero-inner { padding-top: 7.5rem; padding-bottom: 5rem; }
+.hero-copy .hero-tag { margin-top: 1.3rem; }
+.hero-ctas { margin-top: 1.8rem; }
+.hero .hero-meta { margin-top: 2rem; }
+.orb-sil { stroke: rgba(243,236,220,0.5); }
+.orb-glow { inset: 4%;
+  background: radial-gradient(circle, rgba(46,156,142,0.36), rgba(231,196,106,0.1) 55%, transparent 74%); }
+.hero-art { max-width: 580px; }

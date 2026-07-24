@@ -404,3 +404,43 @@
   };
   setInterval(() => { fire(); if (Math.random() > 0.45) setTimeout(fire, 260); }, 1050);
 })();
+
+// Premium v2: scroll-progress hairline + gentle hero parallax + reduced-motion
+// pause for the hero orb's SMIL signal pulses.
+(function () {
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // progress hairline
+  var bar = document.createElement('div');
+  bar.className = 'scroll-progress';
+  bar.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(bar);
+  var ticking = false;
+  function paint() {
+    ticking = false;
+    var doc = document.documentElement;
+    var max = doc.scrollHeight - doc.clientHeight;
+    bar.style.width = (max > 0 ? (window.scrollY / max) * 100 : 0) + '%';
+  }
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(paint); }
+  }, { passive: true });
+  paint();
+
+  var art = document.querySelector('.hero-art');
+  if (art && art.querySelector('svg')) {
+    var svg = art.querySelector('svg');
+    if (reduced && svg.pauseAnimations) { try { svg.pauseAnimations(); } catch (e) {} }
+    if (!reduced) {
+      var pTick = false;
+      window.addEventListener('scroll', function () {
+        if (pTick) return;
+        pTick = true;
+        requestAnimationFrame(function () {
+          pTick = false;
+          var y = window.scrollY;
+          if (y < window.innerHeight * 1.2) art.style.translate = '0 ' + (y * 0.09) + 'px';
+        });
+      }, { passive: true });
+    }
+  }
+})();
