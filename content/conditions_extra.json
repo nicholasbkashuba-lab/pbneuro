@@ -1,0 +1,186 @@
+[
+ {
+  "slug": "concussion-tbi",
+  "name": "Concussion &amp; Traumatic Brain Injury",
+  "nav": "Concussion &amp; TBI",
+  "tag": "Concussion Care",
+  "lede": "A blow or jolt to the head can leave your brain rattled for weeks, and lingering fog, headaches, or dizziness deserves a neurologist's careful eye.",
+  "intro": "",
+  "symptoms": [
+   "Headaches that worsen or won't ease in the days after a head injury",
+   "Confusion, memory gaps, or trouble concentrating",
+   "Dizziness, balance problems, or nausea",
+   "Sensitivity to light or noise, or blurred vision",
+   "Mood changes, irritability, or trouble sleeping"
+  ],
+  "approach": [
+   {
+    "title": "A thorough neurological evaluation",
+    "desc": "Your visit starts with a careful history of the injury and a hands-on exam of memory, balance, coordination, vision, and reflexes. When the picture calls for it, our neurologists arrange imaging and use cognitive and memory testing to measure how the injury has affected thinking and to help rule out other causes."
+   },
+   {
+    "title": "Targeting the symptoms that linger",
+    "desc": "Lingering effects are treated one at a time. Persistent post-traumatic headaches are common, and our headache specialists, including Paul Winner, DO, and Arnaldo Da Silva, MD, tailor care to calm them, while EEG can help when seizures follow a more serious injury."
+   },
+   {
+    "title": "A guided, step-by-step recovery",
+    "desc": "Recovery is a process, so we track it over time with repeat exams and cognitive testing, advise on a safe return to work, school, and activity, and coordinate added support when balance, thinking, or stamina need it. Call 561-845-0500 to schedule an evaluation."
+   }
+  ],
+  "note": "Worsening headache, repeated vomiting, seizures, confusion, slurred speech, one enlarged pupil, or loss of consciousness after a head injury are emergencies - call 911 right away."
+ },
+ {
+  "slug": "dizziness-vertigo",
+  "name": "Dizziness & Vertigo",
+  "nav": "Dizziness &amp; Vertigo",
+  "tag": "Vestibular Neurology",
+  "lede": "When the room suddenly spins, the floor seems to tilt, and you reach for something steady, dizziness deserves a neurologist's careful evaluation.",
+  "intro": "Dizziness and vertigo can arise from the inner ear, but they can also signal something in the brain, the balance pathways, or the nervous system, which is why a neurologist's evaluation matters. At Palm Beach Neurology &amp; Premiere Research Institute, we take a careful history and perform a focused exam to tell benign, treatable causes apart from those that need closer attention. Understanding the true source is the first step toward steadier, more confident days.",
+  "symptoms": [
+   "Spinning or off-balance sensations that keep coming back",
+   "Dizziness with double vision, slurred speech, numbness, or weakness",
+   "Recurrent falls or trouble walking a straight line",
+   "Dizziness paired with a severe headache or new hearing changes",
+   "Lightheaded spells that come with fainting or loss of awareness"
+  ],
+  "approach": [
+   {
+    "title": "A thorough neurological evaluation",
+    "desc": "Our general neurologist Jose Zuniga, MD leads a detailed history and hands-on exam to sort inner-ear (peripheral) causes from central ones involving the brain, balance pathways, or blood flow, so your care starts from a clear picture."
+   },
+   {
+    "title": "Testing that targets the cause",
+    "desc": "When spells could involve seizure activity, we use EEG; when a nerve problem may be affecting your balance, Reed Stone, MD performs EMG and nerve-conduction studies. We coordinate any additional imaging or referrals your case calls for."
+   },
+   {
+    "title": "A management plan built around you",
+    "desc": "For dizziness linked to migraine, our headache specialists Paul Winner, DO and Arnaldo Da Silva, MD guide treatment; we also review medications, address contributors, and share practical balance strategies. Call 561-845-0500 to schedule."
+   }
+  ],
+  "note": "Sudden severe vertigo with slurred speech, facial droop, weakness, or the worst headache of your life can signal a stroke, call 911 right away."
+ },
+ {
+  "slug": "tremor",
+  "name": "Tremor",
+  "nav": "Tremor",
+  "tag": "Movement Disorders",
+  "lede": "A trembling hand, a quivering voice, or a spilled cup of coffee can feel alarming, but many tremors are treatable once the cause is found.",
+  "intro": "A tremor is an involuntary, rhythmic shaking of a hand, head, voice, or other part of the body. Some tremors appear at rest while others emerge with movement or when holding a position, and that pattern helps a neurologist tell essential tremor from Parkinson's disease, medication effects, or other causes. Our physicians evaluate tremor with a careful history and hands-on exam, and when helpful with EMG and nerve-conduction studies, to identify the type and guide the right treatment.",
+  "symptoms": [
+   "Shaking in a hand, head, or voice that is worsening or spreading to other areas",
+   "A tremor that is present at rest and eases when you reach for or use the limb",
+   "Trembling that interferes with writing, eating, drinking, or getting dressed",
+   "Shaking paired with stiffness, slowness, or new changes in walking or balance",
+   "New shakiness after starting a medication or when holding a certain position",
+   "Tremor that is causing worry, embarrassment, or difficulty at work or home"
+  ],
+  "approach": [
+   {
+    "title": "Pinpointing the type of tremor",
+    "desc": "Identifying the cause is the first step. Our movement-disorder specialist, <a href=\"../our-doctors.html\">Dr. Michael Alosilla</a>, examines when and how the shaking occurs, while EMG &amp; nerve-conduction testing with Dr. Reed Stone or Dr. Manisha Korb can rule out a neuromuscular contribution."
+   },
+   {
+    "title": "Personalized, targeted treatment",
+    "desc": "Care is matched to your diagnosis. Options may include medication adjustments and, for carefully chosen patients, deep brain stimulation (DBS) programming led by Dr. Michael Alosilla to help steady movement and restore daily function."
+   },
+   {
+    "title": "Ongoing management and research",
+    "desc": "Tremor care is a partnership over time. We follow your response, fine-tune treatment as your needs change, and, when a relevant study is available, discuss the monitored clinical trials at our on-site Premiere Research Institute. To begin, <a href=\"../appointments.html\">request a visit</a> or call the office at 561-845-0500."
+   }
+  ],
+  "note": "Sudden shaking with weakness, numbness, trouble speaking, or a severe headache can signal a stroke &mdash; call 911 right away."
+ },
+ {
+  "slug": "restless-legs",
+  "name": "Restless Legs Syndrome",
+  "nav": "Restless Legs",
+  "tag": "Sleep &amp; Movement",
+  "lede": "An irresistible urge to move your legs at rest, with crawling or tingling sensations that flare in the evening and quietly steal your sleep.",
+  "intro": "Restless legs syndrome (RLS) is a neurological condition that creates an uncomfortable, often overpowering urge to move the legs, usually when you are sitting still or lying down at night. Because RLS can overlap with iron deficiency, nerve problems, or medication side effects, our neurologists start with a careful history and a review of your sleep patterns and medications. When nerve involvement is a question, targeted testing helps confirm the diagnosis and rule out conditions that can mimic it.",
+  "symptoms": [
+   "An uncomfortable urge to move your legs that eases when you walk or stretch",
+   "Crawling, tingling, aching, or pins-and-needles feelings deep in the legs",
+   "Symptoms that begin or worsen in the evening and disrupt your sleep",
+   "Repeated leg jerks or kicking at night that leave you or a partner exhausted",
+   "Daytime fatigue, trouble concentrating, or low mood from lost sleep",
+   "Over-the-counter remedies are not helping, or symptoms keep getting worse"
+  ],
+  "approach": [
+   {
+    "title": "A thorough neurological work-up",
+    "desc": "<p>Restless legs is diagnosed clinically, but look-alike conditions matter. Our team takes a detailed history and, when nerve involvement is suspected, uses <strong>EMG and nerve-conduction studies</strong> to rule out peripheral neuropathy. <strong>Reed Stone, MD, FAAN</strong>, brings more than 38 years of nerve and muscle expertise to this evaluation.</p>"
+   },
+   {
+    "title": "Finding and addressing the root cause",
+    "desc": "<p>RLS is often tied to low iron, certain medications, kidney issues, or pregnancy, so we work to identify and address what is driving your symptoms rather than treating them in isolation. Movement-disorders specialist <strong>Michael Alosilla, MD</strong>, tailors care to what your evaluation actually reveals.</p>"
+   },
+   {
+    "title": "A management plan that protects your sleep",
+    "desc": "<p>We build a practical plan to calm symptoms and protect your rest, reviewing daily habits and medications, discussing evidence-based treatment options, and following up over time to keep things working. Explore our neurology <a href=\"../services.html\">services</a> or request an <a href=\"../appointments.html\">appointment</a> to get started.</p>"
+   }
+  ],
+  "note": "Sudden leg weakness, numbness, or loss of movement is not typical of restless legs syndrome; call 911 for emergencies, and reach our office at 561-845-0500 for a prompt evaluation."
+ },
+ {
+  "slug": "trigeminal-neuralgia",
+  "name": "Trigeminal Neuralgia",
+  "nav": "Trigeminal Neuralgia",
+  "tag": "Facial Pain",
+  "lede": "Trigeminal neuralgia sends sudden, electric-shock pain across one side of the face—often set off by a breeze, a shave, or a smile.",
+  "intro": "Trigeminal neuralgia is a nerve pain disorder involving the trigeminal nerve, which carries sensation from your face to your brain. The pain arrives in sudden, intense bursts—often described as stabbing, burning, or like an electric shock—and everyday movements such as chewing, talking, or washing your face can set it off. Our neurologists diagnose it through a careful history and neurological exam, use advanced imaging to check for a blood vessel or other cause pressing on the nerve, and rule out conditions that can mimic it.",
+  "symptoms": [
+   "Sudden, shock-like or stabbing pain on one side of the face",
+   "Attacks triggered by light touch—chewing, talking, shaving, or a cool breeze",
+   "Brief, repeated bursts of pain that come and go over days or weeks",
+   "Pain centered around the cheek, jaw, teeth, or eye",
+   "Over-the-counter pain relievers that no longer bring relief",
+   "Facial pain that is spreading, constant, or paired with numbness or weakness"
+  ],
+  "approach": [
+   {
+    "title": "Pinpointing the true source of the pain",
+    "desc": "We begin with a detailed history and a focused neurological exam to map exactly where your pain occurs and what provokes it. Advanced imaging helps us see whether a blood vessel or another condition is pressing on the trigeminal nerve, and the nerve and muscle expertise of Reed Stone, MD, helps distinguish trigeminal neuralgia from other causes of facial and nerve pain."
+   },
+   {
+    "title": "A plan tailored to your pain",
+    "desc": "Many people gain meaningful relief once the misfiring nerve signals behind the attacks are calmed. When facial pain overlaps with migraine or proves stubborn, our headache and neuromodulation specialists—including Arnaldo Da Silva, MD, Co-Director of the Palm Beach Headache Center, and Paul Winner, DO—can weigh further options and adjust your plan as symptoms change."
+   },
+   {
+    "title": "Research-informed care over the long run",
+    "desc": "Because our physicians stay active in neurology research through the on-site Premiere Research Institute, your care reflects current thinking in the field. We follow you over time—refining your treatment, tracking your response, and coordinating any additional care if the pain persists—so you can get back to eating, talking, and living without bracing for the next jolt."
+   }
+  ],
+  "note": "New facial drooping, weakness, numbness, or slurred speech can signal a stroke—call 911 right away."
+ },
+ {
+  "slug": "bells-palsy",
+  "name": "Bell's Palsy",
+  "nav": "Bell's Palsy",
+  "tag": "Cranial Nerve",
+  "lede": "When one side of your face droops overnight and a smile won't cooperate, Bell's palsy — sudden facial-nerve weakness — is often the cause.",
+  "intro": "Bell's palsy is a sudden weakness or drooping on one side of the face, caused by inflammation of the facial nerve (cranial nerve VII) that controls your expressions. It usually comes on quickly, over hours to a day or two, and while most cases improve on their own, the abrupt onset can look alarming and mimic more serious problems. A neurologist's role is to confirm the diagnosis with a careful exam, rule out other causes, and begin care early — when it tends to help the most.",
+  "symptoms": [
+   "Sudden drooping or weakness on one side of your face",
+   "A smile, blink, or eyebrow that won't move on the affected side",
+   "An eye that won't close fully or feels dry and irritated",
+   "Drooling, trouble eating, or speech that sounds slurred",
+   "Loss of taste, or sounds seeming unusually loud in one ear",
+   "Facial weakness coming on over hours — especially if you're unsure whether it could be a stroke"
+  ],
+  "approach": [
+   {
+    "title": "A careful neurologic exam to confirm the diagnosis",
+    "desc": "Because sudden facial weakness can also point to other conditions, our neurologists begin with a focused exam that distinguishes Bell's palsy — which typically affects the whole side of the face, including the forehead — from other causes. Reed Stone, MD, and Jose Zuniga, MD, weigh the pattern of weakness, your history, and any related symptoms to reach the right diagnosis quickly."
+   },
+   {
+    "title": "Nerve testing when recovery is slow or the picture is unclear",
+    "desc": "If the weakness is severe or slow to improve, electromyography (EMG) and nerve-conduction studies can measure how well the facial nerve is working and help gauge the outlook. Reed Stone, MD, and Manisha Korb, MD, use these studies to assess nerve involvement and guide the next steps in your care."
+   },
+   {
+    "title": "Early treatment and support while the nerve heals",
+    "desc": "Bell's palsy usually improves over several weeks to a few months, and being evaluated early can make a difference. Our neurologists review appropriate, evidence-based options and simple ways to protect the eye when the blink is weak, then coordinate follow-up so recovery stays on track — and revisit the diagnosis if it isn't improving as expected. To schedule an evaluation, call our West Palm Beach office at 561-845-0500."
+   }
+  ],
+  "note": "Sudden facial drooping can also be a warning sign of stroke — if it comes with arm weakness, trouble speaking, confusion, or a severe headache, call 911 right away."
+ }
+]

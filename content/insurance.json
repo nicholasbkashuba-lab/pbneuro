@@ -1,0 +1,41 @@
+{
+ "title": "Insurance &amp; Billing — Neurology in West Palm Beach",
+ "desc": "Learn how Palm Beach Neurology handles insurance and billing. We accept many major plans, including Medicare. Call 561-845-0500 to verify your coverage.",
+ "intro_html": "<p>At Palm Beach Neurology &amp; Premiere Research Institute, we want your focus to be on your health, not on paperwork. Our front-desk team works with a wide range of major insurance plans, including Medicare, and will help verify your coverage before you arrive so there are no surprises at check-in.</p><p>Because every plan and policy is different, the best way to confirm what your insurance covers is a quick phone call. Please call our West Palm Beach office at <a href=\"tel:5618450500\">561-845-0500</a> with your insurance card handy, and we will help you understand your benefits and your next steps.</p>",
+ "sections": [
+  {
+   "heading": "Insurance we work with",
+   "body_html": "<p>We accept many major insurance plans, including Medicare. Because coverage details and networks can change over time, we recommend confirming that we participate with your specific plan before your visit.</p><p>Have your insurance card ready and call <a href=\"tel:5618450500\">561-845-0500</a>. Our team will check your plan, explain what is covered for neurology visits and testing such as EEG or EMG, and answer any questions about your benefits.</p>"
+  },
+  {
+   "heading": "Referrals",
+   "body_html": "<p>Some insurance plans require a referral from your primary care physician before you can see a neurologist, while others allow you to schedule directly. Requirements vary from plan to plan, so it is worth checking with your insurer.</p><p>If your plan needs a referral, ask your primary care office to send it to us ahead of your appointment. Not sure whether you need one? Call <a href=\"tel:5618450500\">561-845-0500</a> and we will help you find out.</p>"
+  },
+  {
+   "heading": "What your visit may cost",
+   "body_html": "<p>Your out-of-pocket cost depends on your specific plan, including your deductible, copay, and coinsurance, as well as the services you receive. Some visits are straightforward office consultations, while others may include diagnostic testing such as EEG, EMG and nerve-conduction studies, or cognitive and memory testing.</p><p>We are glad to help you understand potential costs before your appointment. For questions about billing or about a statement you have received, please call our office at <a href=\"tel:5618450500\">561-845-0500</a> and our team will walk you through it.</p><p><strong>Please note:</strong> our on-site Premiere Research Institute offers monitored clinical trials in areas such as Alzheimer&#39;s, migraine, and multiple sclerosis, often at no cost to participants. To learn more, visit our <a href=\"../clinical-research.html\">clinical research</a> page.</p>"
+  },
+  {
+   "heading": "Before your appointment",
+   "body_html": "<p>A little preparation helps your visit go smoothly. Before you arrive, please:</p><ul><li>Have your current insurance card and a photo ID ready.</li><li>Confirm whether your plan requires a referral, and ask your primary care office to send it if needed.</li><li>Bring a list of your current medications and any relevant prior test results or imaging.</li><li>Arrive a few minutes early to complete any remaining paperwork.</li></ul><p>Questions before your visit? Call <a href=\"tel:5618450500\">561-845-0500</a>, or when you are ready, <a href=\"../appointments.html\">request an appointment</a>.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Do you accept Medicare?",
+   "a": "Yes. We accept Medicare along with many other major insurance plans. Because plan networks can change, we recommend calling 561-845-0500 with your card handy so our team can confirm your coverage before your visit."
+  },
+  {
+   "q": "Do I need a referral to see a neurologist?",
+   "a": "It depends on your insurance plan. Some plans require a referral from your primary care physician, and others let you schedule directly. If you are unsure, call our office at 561-845-0500 and we will help you check."
+  },
+  {
+   "q": "How can I find out what my visit will cost?",
+   "a": "Your cost depends on your individual plan and the services you receive. Our front-desk team can help you understand your benefits and potential out-of-pocket costs. Call 561-845-0500 with your insurance card ready."
+  },
+  {
+   "q": "What should I bring to my appointment?",
+   "a": "Please bring your current insurance card, a photo ID, a list of your current medications, and any relevant prior test results. If your plan requires a referral, have your primary care office send it before your visit."
+  }
+ ]
+}

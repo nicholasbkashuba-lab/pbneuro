@@ -1,0 +1,502 @@
+[
+ {
+  "slug": "eeg",
+  "name": "EEG & Seizure Testing",
+  "title": "EEG & Seizure Testing in West Palm Beach | Epilepsy Care",
+  "desc": "EEG and seizure testing at Palm Beach Neurology in West Palm Beach, FL, led by epilepsy specialist Dr. Tara Becker, MD. Call 561-845-0500 to learn more.",
+  "eyebrow": "Seizure and Epilepsy Diagnostics",
+  "h1": "EEG & Seizure Testing in West Palm Beach",
+  "lede": "EEG and seizure testing to evaluate seizures and epilepsy, performed at our West Palm Beach office and led by epilepsy specialist Dr. Tara Becker.",
+  "intro_html": "<p>An electroencephalogram, or EEG, is one of the most useful tools in neurology for understanding the brain's electrical activity. At Palm Beach Neurology &amp; Premiere Research Institute, EEG and seizure testing is used to evaluate unexplained spells, confirm or rule out epilepsy, and guide treatment for people living with seizures. All testing is performed at our West Palm Beach office, where we have cared for the Palm Beaches for more than 25 years.</p>\n<p>Our EEG testing is led by <a href=\"../our-doctors.html\">Dr. Tara Becker, MD</a>, whose focus is epilepsy, seizures, EEG, and VNS therapy. An EEG can be recorded in different ways depending on what your neurologist needs to see, and your care team will recommend the approach that best fits your symptoms.</p>",
+  "what_html": "<p>An EEG measures the tiny electrical signals your brain cells use to communicate. A technologist places small sensors, called electrodes, on the scalp using a mild paste. The electrodes simply listen &mdash; nothing is sent into your brain, and the test is painless. The recording reveals patterns of brain-wave activity that a neurologist can review for signs of seizures or other changes.</p>\n<p>EEG can be performed in more than one way. A <strong>standard EEG</strong> captures a snapshot over a short in-office session. An <strong>ambulatory EEG</strong> lets you wear a small recorder at home for a day or more, capturing activity during everyday routines and sleep. A <strong>video EEG</strong> pairs the brain-wave recording with synchronized video, so a care team can match any event you have to what the brain is doing at that exact moment. Your neurologist recommends the approach that best fits your symptoms.</p>",
+  "who_html": "<p>EEG and seizure testing can help anyone experiencing unexplained episodes such as convulsions, staring spells, sudden confusion, unusual movements, fainting, or déjà-vu-like sensations, as well as people already diagnosed with <a href=\"../conditions/epilepsy.html\">epilepsy and seizures</a> who need their treatment fine-tuned. A seizure lasting more than five minutes, or one after which the person does not wake up, is a medical emergency; call <strong>911</strong> right away. If you are unsure whether an EEG is right for you, call our office at <strong>561-845-0500</strong>.</p>",
+  "expect": [
+   {
+    "title": "Scheduling and preparation",
+    "desc": "When you book at 561-845-0500, our office reviews any preparation instructions with you. In most cases you arrive with clean, dry hair and free of heavy hair products. Our team will also let you know whether to adjust any medications before your test."
+   },
+   {
+    "title": "Placing the sensors",
+    "desc": "A technologist gently measures your scalp and attaches soft electrodes with a water-soluble paste. There are no needles and no discomfort; the sensors only listen to your brain's natural activity."
+   },
+   {
+    "title": "The recording",
+    "desc": "For a standard EEG you simply rest quietly, and may be asked to breathe deeply, watch a flashing light, or relax with your eyes open and closed. Many people find the test so calm they doze off."
+   },
+   {
+    "title": "Take-home or extended monitoring",
+    "desc": "If your neurologist orders an ambulatory or video EEG, you continue your normal routine while the recorder captures activity over a day or more. You keep a simple diary of any symptoms or events to help match them to the recording."
+   },
+   {
+    "title": "Reviewing your results",
+    "desc": "One of our neurologists interprets the recording and discusses the findings with you at a follow-up visit, then works with you on the next steps of your care plan."
+   }
+  ],
+  "approach": [
+   {
+    "title": "Epilepsy-focused expertise",
+    "desc": "Our EEG testing is led by Dr. Tara Becker, MD, whose focus is epilepsy, seizures, EEG, and VNS therapy. Recordings are read by neurologists, so subtle patterns receive careful attention."
+   },
+   {
+    "title": "The right test for the right question",
+    "desc": "An EEG can be recorded in different ways depending on the clinical question, so your neurologist can match the study to your symptoms rather than relying on a single one-size-fits-all test. Our office coordinates the right testing with you."
+   },
+   {
+    "title": "Connected to complete neurology care",
+    "desc": "EEG is one part of a full neurology practice. Your results feed directly into a care plan that may include medication management and VNS and neuromodulation, with everything coordinated in one West Palm Beach office."
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Does an EEG hurt?",
+    "a": "No. An EEG is painless and noninvasive. The electrodes only listen to your brain's natural electrical activity; nothing is sent into your body. Most people find the test relaxing, and some even fall asleep during it."
+   },
+   {
+    "q": "What is the difference between a standard, ambulatory, and video EEG?",
+    "a": "A standard EEG records for a short session in the office. An ambulatory EEG is a take-home study that records over a day or more during your normal routine and sleep. A video EEG adds synchronized video so events can be matched to brain activity. Your neurologist recommends the type that fits your symptoms."
+   },
+   {
+    "q": "How do I prepare for an EEG?",
+    "a": "Arrive with clean, dry hair and avoid heavy hair products, which can interfere with the sensors. When you schedule at 561-845-0500, our office will review any specific instructions with you, including whether to adjust any medications before your test."
+   }
+  ],
+  "schema_type": "MedicalTest"
+ },
+ {
+  "slug": "emg-nerve-conduction",
+  "name": "EMG &amp; Nerve Conduction Studies",
+  "title": "EMG &amp; Nerve Conduction Studies | West Palm Beach FL",
+  "desc": "EMG and nerve conduction studies in West Palm Beach with Drs. Reed Stone and Manisha Korb. Precise nerve and muscle testing for neuropathy, weakness and numbness.",
+  "eyebrow": "Diagnostic Testing",
+  "h1": "EMG &amp; Nerve Conduction Studies",
+  "lede": "Precise nerve and muscle testing to find the cause of numbness, tingling, weakness, or pain — performed and read by our neurologists in West Palm Beach.",
+  "intro_html": "<p>When numbness, tingling, weakness, or pain has no obvious cause, an <strong>electromyography (EMG)</strong> study paired with a <strong>nerve conduction study (NCS)</strong> can show exactly how well your nerves and muscles are working. Performed together in our West Palm Beach office, these tests help our neurologists pinpoint where a problem begins and how much it is affecting the nerve or muscle.</p>\n<p>At Palm Beach Neurology &amp; Premiere Research Institute, your study is performed and interpreted by <strong>Reed Stone, MD, FAAN</strong>, who brings more than 38 years of experience in nerve, muscle, and spine care, and <strong>Manisha Korb, MD</strong>, a neuromuscular specialist. Because a neurologist reads your results, the findings connect directly to a clear, individualized plan.</p>",
+  "what_html": "<p>A <strong>nerve conduction study</strong> measures how quickly and strongly electrical signals travel along your nerves. Small electrodes are placed on the skin, and gentle pulses time the signal as it moves from one point to another. Slow or weak responses can point to nerve damage, compression, or neuropathy.</p>\n<p>An <strong>EMG</strong> looks at the muscles themselves. Using a very thin needle electrode, your physician records a muscle's natural electrical activity while it is at rest and while you gently contract it. The pattern helps distinguish whether your symptoms arise from a nerve, a muscle, or the point where the two connect — information that is often difficult to get from imaging or bloodwork alone.</p>",
+  "who_html": "<p>EMG and nerve conduction testing helps people with symptoms such as numbness, tingling, burning, weakness, muscle cramps, or hand and foot pain. It is often used to evaluate <a href=\"../conditions/neuropathy.html\">neuropathy</a>, carpal tunnel and other nerve compression, radiculopathy from the neck or back, and <a href=\"../conditions/neuromuscular.html\">neuromuscular disorders</a>. If you are not sure whether testing is right for you, call our office at 561-845-0500.</p>",
+  "expect": [
+   {
+    "title": "A focused history and exam",
+    "desc": "Your visit begins with a short conversation about your symptoms and a brief exam, so testing targets the right nerves and muscles."
+   },
+   {
+    "title": "Nerve conduction study",
+    "desc": "Surface electrodes are placed on the skin and brief pulses measure how your nerves send signals. You will feel quick taps or a mild tingle; most people find it very manageable."
+   },
+   {
+    "title": "EMG needle exam",
+    "desc": "A thin needle electrode samples a few muscles while you relax and then gently tense them. It records electrical activity and usually takes only a few minutes per muscle."
+   },
+   {
+    "title": "Interpretation by your neurologist",
+    "desc": "Because a neurologist performs the study, your physician reviews the findings as they go and can begin explaining what the results mean before you leave."
+   },
+   {
+    "title": "Results and next steps",
+    "desc": "We connect the findings back to your symptoms and outline next steps — whether that is treatment here, further testing, or coordination with your other doctors."
+   }
+  ],
+  "approach": [
+   {
+    "title": "Read by neurologists, not just performed",
+    "desc": "Drs. Reed Stone and Manisha Korb both perform and interpret your study, so the physician analyzing the data is the same one evaluating your care."
+   },
+   {
+    "title": "Deep neuromuscular expertise",
+    "desc": "With Dr. Stone's 38-plus years in nerve, muscle, and spine care and Dr. Korb's focus on neuromuscular disease and ALS, subtle or complex findings are in experienced hands."
+   },
+   {
+    "title": "Testing that leads to a plan",
+    "desc": "As a full neurology practice, we translate results directly into a personalized treatment plan and coordinate any follow-up care and further testing in one place."
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Does an EMG hurt?",
+    "a": "Most people tolerate it well. The nerve conduction portion feels like brief taps or a mild tingle, and the EMG needle is very thin, causing a quick, temporary discomfort in each muscle tested. Any soreness usually fades soon afterward."
+   },
+   {
+    "q": "How should I prepare?",
+    "a": "Come with clean skin free of lotion or oil, and wear or bring clothing that allows easy access to the arms and legs. Let us know in advance if you take blood thinners or have a pacemaker or other implanted device. For specifics, call 561-845-0500."
+   },
+   {
+    "q": "How long does the test take?",
+    "a": "Most studies take about 30 to 60 minutes, depending on how many nerves and muscles need to be examined. Your physician will explain what to expect for your particular study."
+   }
+  ],
+  "schema_type": "MedicalTest"
+ },
+ {
+  "slug": "botox-for-migraine",
+  "name": "Botox for Chronic Migraine",
+  "title": "Botox for Chronic Migraine Care in West Palm Beach FL",
+  "desc": "OnabotulinumtoxinA (Botox) injections for chronic migraine at Palm Beach Neurology in West Palm Beach — preventive care from headache experts Drs. Winner and Da Silva.",
+  "eyebrow": "Headache and Migraine Treatment",
+  "h1": "Botox for Chronic Migraine",
+  "lede": "FDA-approved OnabotulinumtoxinA injections to help prevent chronic migraine, delivered by the headache specialists at Palm Beach Neurology in West Palm Beach.",
+  "intro_html": "<p>Chronic migraine can take days out of every month, and preventive pills do not work for everyone. For adults living with frequent, disabling headaches, <strong>OnabotulinumtoxinA (Botox)</strong> is an FDA-approved preventive treatment that can reduce how often migraine attacks strike. At Palm Beach Neurology &amp; Premiere Research Institute in West Palm Beach, we offer this therapy as part of a complete migraine plan.</p><p>Botox for migraine is delivered by our headache specialists, <strong>Dr. Paul Winner</strong> and <strong>Dr. Arnaldo Da Silva</strong>, who focus their care on headache and migraine. They tailor each treatment to your headache pattern and follow your progress over time.</p>",
+  "what_html": "<p>Botox is a purified protein that, injected in very small amounts, relaxes the nerves and muscles it reaches. For chronic migraine it is not used to smooth wrinkles &mdash; instead, it is thought to calm the nerve signals that help set off migraine pain. Treatment is a series of small injections placed at set points across the forehead, temples, back of the head, neck, and shoulders.</p><p>The therapy is given about once every 12 weeks. It is approved specifically for <strong>chronic migraine</strong>, generally defined as headaches on 15 or more days each month with migraine features on at least eight of those days. Because it is a <em>preventive</em> treatment, it works to make attacks less frequent rather than to stop a headache already underway.</p>",
+  "who_html": "<p>Botox may help adults who live with <a href=\"../conditions/headache-migraine.html\">chronic migraine</a> &mdash; frequent, disabling headaches that have not responded well to other preventive treatments. Whether it is a good fit depends on your headache pattern and history, and our headache specialists can help you decide. If you ever have a sudden, severe, or unusual headache, call 911.</p>",
+  "expect": [
+   {
+    "title": "A headache evaluation",
+    "desc": "Before any injections, one of our headache specialists reviews your history, headache pattern, and past treatments to confirm that Botox is a good fit for you."
+   },
+   {
+    "title": "The injection visit",
+    "desc": "Treatment takes only a few minutes. You receive a series of small injections at set points across the head, neck, and shoulders using a very fine needle."
+   },
+   {
+    "title": "Little to no downtime",
+    "desc": "Most people return to their day right after the appointment. Any soreness at the injection sites is usually mild and short-lived."
+   },
+   {
+    "title": "Results over the following weeks",
+    "desc": "Botox works gradually. Many people notice fewer or less severe migraine days in the weeks after treatment, with fuller benefit often building over repeat sessions."
+   },
+   {
+    "title": "Ongoing visits every 12 weeks",
+    "desc": "To keep the benefit, treatment is repeated about every three months. We track your headache days and adjust the plan as needed."
+   }
+  ],
+  "approach": [
+   {
+    "title": "A dedicated headache team",
+    "desc": "Botox at our practice is delivered by Drs. Paul Winner and Arnaldo Da Silva, neurologists who focus on headache and migraine. Dr. Da Silva also serves as Co-Director of the Palm Beach Headache Center."
+   },
+   {
+    "title": "Part of a complete migraine plan",
+    "desc": "We do not rely on injections alone. Botox is combined with trigger management, lifestyle guidance, and other preventive options so your whole plan works together."
+   },
+   {
+    "title": "Access to migraine research",
+    "desc": "Through our on-site Premiere Research Institute, eligible patients may have access to monitored clinical trials in migraine, often at no cost to participants."
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Does Botox for migraine hurt?",
+    "a": "Most people tolerate it well. The injections use a very fine needle and each takes only a moment; you may feel a quick pinch and some mild soreness afterward. To schedule or ask questions, call our West Palm Beach office at 561-845-0500."
+   },
+   {
+    "q": "How often will I need treatment?",
+    "a": "Botox for chronic migraine is typically given about once every 12 weeks. Because it is a preventive treatment, staying on a regular schedule gives it the best chance to reduce your migraine days over time."
+   },
+   {
+    "q": "Is Botox covered by insurance?",
+    "a": "Coverage for chronic migraine varies by plan and often requires that other preventive treatments were tried first. Our team can review the specifics with you — please call the office at 561-845-0500 for details."
+   }
+  ],
+  "schema_type": "MedicalTherapy"
+ },
+ {
+  "slug": "infusion-therapy",
+  "name": "Infusion Therapy",
+  "title": "Infusion Therapy in West Palm Beach | Neurology Care",
+  "desc": "In-office infusion therapy in West Palm Beach for multiple sclerosis, chronic migraine and other neurologic conditions, monitored by our neurology team.",
+  "eyebrow": "Our Services",
+  "h1": "Infusion Therapy in West Palm Beach",
+  "lede": "In-office infusions for multiple sclerosis, chronic migraine and other neurologic conditions — delivered and closely monitored by our West Palm Beach neurology team.",
+  "intro_html": "<p>At Palm Beach Neurology, some neurologic conditions respond best to medication delivered directly into the bloodstream. Our West Palm Beach office offers in-office infusion therapy for conditions such as multiple sclerosis and chronic migraine, so you can receive treatment in a familiar, supervised setting close to home.</p><p>Every infusion is directed by one of our neurologists and carried out by our clinical team, who stay close by from the first drop to the last. It is one more way we care for the whole person &mdash; treating the patient, not just the disease.</p>",
+  "what_html": "<p>Infusion therapy simply means giving medication through a small IV line placed in a vein, usually in the arm, instead of by pill or injection. The medicine drips in slowly over a set period of time while you rest in a comfortable chair. Delivering treatment this way lets certain medications reach the bloodstream steadily and completely.</p><p>For some neurologic conditions, an infusion is the most effective way to receive a particular therapy. Your neurologist will explain whether an infusion is appropriate for you, what the medication is meant to do, and how often it may be needed.</p>",
+  "who_html": "<p>Infusion therapy may be part of the plan for people living with <a href=\"../conditions/multiple-sclerosis.html\">multiple sclerosis</a> or those managing <a href=\"../conditions/headaches-migraine.html\">chronic migraine</a>, among other neurologic conditions. Whether an infusion is right for you is a decision you and your neurologist make together. To learn more, call our West Palm Beach office at <a href=\"tel:5618450500\">561-845-0500</a>.</p>",
+  "expect": [
+   {
+    "title": "A treatment plan first",
+    "desc": "Before any infusion, your neurologist reviews your history and explains the medication, the schedule, and what it is meant to help."
+   },
+   {
+    "title": "Getting settled",
+    "desc": "On the day of your visit, our team checks you in, answers your questions, and places a small IV line so you can relax comfortably during treatment."
+   },
+   {
+    "title": "During your infusion",
+    "desc": "The medication is given slowly while our clinical staff stay nearby, checking on how you are feeling throughout the visit."
+   },
+   {
+    "title": "After you are done",
+    "desc": "We remove the IV and, when appropriate, observe you for a short time before you head home, with clear guidance on what to expect afterward."
+   },
+   {
+    "title": "Ongoing care",
+    "desc": "If your therapy is given on a schedule, we coordinate your next visit and keep your neurologist informed of your progress."
+   }
+  ],
+  "approach": [
+   {
+    "title": "Neurologist-directed",
+    "desc": "Every infusion is ordered and supervised by our neurologists, including physicians who focus on multiple sclerosis and on headache and migraine, so your treatment matches your diagnosis."
+   },
+   {
+    "title": "Monitored for safety and comfort",
+    "desc": "You are cared for in a calm, clinical setting where our staff watch over you the entire time and are ready to respond to any concern."
+   },
+   {
+    "title": "Coordinated from start to finish",
+    "desc": "We handle the scheduling, keep your records in one place, and communicate with your neurologist so each infusion builds on the last."
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Where is infusion therapy given?",
+    "a": "All infusions are provided in our West Palm Beach office under the supervision of our neurology team, so you receive treatment in one familiar, coordinated place."
+   },
+   {
+    "q": "How long does an infusion take?",
+    "a": "It depends on the specific medication your neurologist prescribes; some infusions take under an hour and others longer. Our team will tell you what to expect beforehand and can answer questions at 561-845-0500."
+   },
+   {
+    "q": "Will my insurance cover infusion therapy?",
+    "a": "Coverage varies by plan and medication. Our office can help review your benefits before treatment begins — please call us at 561-845-0500 to go over the details."
+   }
+  ],
+  "schema_type": "MedicalTherapy"
+ },
+ {
+  "slug": "memory-cognitive-testing",
+  "name": "Memory & Cognitive Testing",
+  "title": "Memory & Cognitive Testing | West Palm Beach Neurology",
+  "desc": "Cognitive and memory testing in West Palm Beach, including a FREE 30-minute Memory Screen. Dr. Carl Sadowsky and our memory team evaluate concerns with care.",
+  "eyebrow": "Memory & Cognitive Health",
+  "h1": "Memory & Cognitive Testing",
+  "lede": "Clear, caring answers about memory and thinking, starting with a free, no-pressure Memory Screen at our West Palm Beach office.",
+  "intro_html": "<p>Noticing changes in memory or thinking can be worrying, whether you see them in yourself or in someone you love. At Palm Beach Neurology &amp; Premiere Research Institute, memory and cognitive testing gives those concerns a careful, professional look, so you can move forward with clear information instead of guesswork.</p>\n<p>Every evaluation is done at our West Palm Beach office, and it can begin with a <strong>FREE Memory Screen</strong>: a short, no-cost check that takes about 30 minutes. It is a comfortable, low-pressure first step, with no obligation to go further.</p>",
+  "what_html": "<p>Memory and cognitive testing is a structured way to measure how the brain handles everyday tasks like remembering, paying attention, finding words, and solving problems. Instead of relying on a single impression, our team uses standardized questions and simple verbal and written exercises to see which areas are working well and which may need a closer look.</p>\n<p>The results help our neurologists tell the difference between normal, age-related forgetfulness and changes that deserve further evaluation. When more detail is helpful, cognitive testing can be paired with an office visit and a full neurological exam to build a complete picture of what is going on.</p>",
+  "expect": [
+   {
+    "title": "A Conversation About Your Concerns",
+    "desc": "You will check in at our West Palm Beach office and talk with our team about what you have noticed, your health history, and any questions on your mind."
+   },
+   {
+    "title": "The Free Memory Screen",
+    "desc": "The no-cost Memory Screen takes about 30 minutes and uses simple questions and exercises. There are no needles and nothing uncomfortable involved."
+   },
+   {
+    "title": "A Fuller Cognitive Evaluation",
+    "desc": "If more detail would help, our team may recommend more in-depth testing of memory, attention, and language to better understand the pattern."
+   },
+   {
+    "title": "Reviewing Your Results",
+    "desc": "A physician explains the findings in plain English, including what looks normal for your age and anything worth watching or exploring further."
+   },
+   {
+    "title": "A Clear Plan Forward",
+    "desc": "Together we outline next steps, which may include follow-up, treatment options, or information about on-site clinical research when appropriate."
+   }
+  ],
+  "approach": [
+   {
+    "title": "Guided by a Memory Specialist",
+    "desc": "Testing is overseen by our memory team, including Carl Sadowsky, MD, FAAN, whose focus is memory, Alzheimer's, and clinical research."
+   },
+   {
+    "title": "Answers, Not Assumptions",
+    "desc": "We rely on standardized, well-established testing and take time to explain results in plain language, so nothing feels rushed or uncertain."
+   },
+   {
+    "title": "Backed by On-Site Research",
+    "desc": "Through our Premiere Research Institute, we stay current with Alzheimer's care and can share monitored clinical trials, often at no cost to participants."
+   }
+  ],
+  "who_html": "<p>Memory and cognitive testing can help anyone noticing forgetfulness, trouble concentrating, or word-finding difficulty, as well as families who simply want a baseline or reassurance. It is often a first step for those exploring <a href=\"../conditions/memory-loss-alzheimers.html\">memory loss and Alzheimer's</a>. To arrange a visit, call our West Palm Beach office at 561-845-0500.</p>",
+  "faqs": [
+   {
+    "q": "Is the Memory Screen really free?",
+    "a": "Yes. The Memory Screen is a no-cost check that takes about 30 minutes, with no obligation to continue. Call our West Palm Beach office at 561-845-0500 to set one up."
+   },
+   {
+    "q": "Does memory and cognitive testing hurt?",
+    "a": "No. Testing is based on conversation and simple questions and exercises. There are no needles and nothing painful, and you can take your time throughout."
+   },
+   {
+    "q": "Do I need a referral, or how do I schedule?",
+    "a": "The easiest way to start is to call our office at 561-845-0500. Our team can walk you through scheduling and answer questions about what to bring."
+   }
+  ],
+  "schema_type": "MedicalTest"
+ },
+ {
+  "slug": "headache-center",
+  "name": "Palm Beach Headache Center",
+  "title": "Palm Beach Headache Center | Migraine, West Palm Beach",
+  "desc": "Migraine and headache care at the Palm Beach Headache Center in West Palm Beach: Botox, neuromodulation, and infusion therapy led by Drs. Winner and Da Silva.",
+  "eyebrow": "Dedicated Migraine and Headache Care",
+  "h1": "Palm Beach Headache Center",
+  "lede": "Specialized care for migraine and headache disorders, led by nationally recognized headache specialists in West Palm Beach.",
+  "intro_html": "<p>Headache and migraine are among the most common neurological conditions, yet they are frequently underdiagnosed and undertreated. At the Palm Beach Headache Center &mdash; part of Palm Beach Neurology &amp; Premiere Research Institute &mdash; we concentrate on the diagnosis and long-term management of headache disorders, from episodic and chronic migraine to cluster headache and medication-overuse headache.</p>\n<p>The center is led by <strong>Paul Winner, DO, FAAN, FAHS</strong>, a national leader in headache medicine and clinical research, together with <strong>Arnaldo Da Silva, MD, FAHS</strong>, Co-Director of the Palm Beach Headache Center. Both are Fellows of the American Headache Society, and both bring a focused, specialized approach to every visit.</p>",
+  "what_html": "<p>The Palm Beach Headache Center is a dedicated headache program within our West Palm Beach neurology office. Rather than treating headache as an afterthought, we make it the focus of your visit &mdash; taking a careful history, reviewing your triggers and past treatments, and identifying exactly which type of headache you have.</p>\n<p>From there, we draw on today's advanced options for migraine care: <strong>Botox</strong> for chronic migraine, <strong>neuromodulation</strong> devices, and infusion therapy for stubborn attacks. When appropriate, eligible patients may also learn about monitored migraine clinical trials through our on-site <a href=\"../clinical-research.html\">Premiere Research Institute</a>.</p>",
+  "expect": [
+   {
+    "title": "A thorough headache history",
+    "desc": "Your visit begins with a detailed conversation about your headache pattern, triggers, past treatments, and how symptoms affect your daily life."
+   },
+   {
+    "title": "An accurate diagnosis",
+    "desc": "Headaches come in many forms. Your physician pinpoints the specific type &mdash; such as migraine, cluster, or tension-type &mdash; because the right diagnosis guides the right treatment."
+   },
+   {
+    "title": "A personalized treatment plan",
+    "desc": "Together you review options that may include Botox for chronic migraine, neuromodulation, or infusion therapy, chosen for your pattern and goals."
+   },
+   {
+    "title": "Ongoing follow-up",
+    "desc": "Headache care is rarely one-and-done. We track your response over time and adjust your plan, working toward fewer and less severe attacks."
+   },
+   {
+    "title": "Research opportunities, if you choose",
+    "desc": "Eligible patients may learn about monitored migraine clinical trials at our on-site Premiere Research Institute, often at no cost to participants."
+   }
+  ],
+  "approach": [
+   {
+    "title": "Specialists, not generalists",
+    "desc": "The center is led by Dr. Paul Winner and Dr. Arnaldo Da Silva, Fellows of the American Headache Society who focus specifically on headache and migraine."
+   },
+   {
+    "title": "A focused modern toolkit",
+    "desc": "We bring today's advanced migraine options together in one place, including Botox for chronic migraine, neuromodulation, and infusion therapy."
+   },
+   {
+    "title": "Research-driven care",
+    "desc": "Our on-site Premiere Research Institute keeps us close to emerging migraine treatments, so your care reflects the latest evidence."
+   }
+  ],
+  "who_html": "<p>The Palm Beach Headache Center helps adults across the Palm Beaches who live with frequent or disabling <a href=\"../conditions/headache-migraine.html\">headache &amp; migraine</a>, including chronic migraine, cluster headache, and headaches that have not responded to previous treatment. If headaches are interrupting your work, sleep, or family life, we are here to help you regain control. Call our West Palm Beach office at 561-845-0500 or <a href=\"../appointments.html\">request an appointment</a>.</p>",
+  "faqs": [
+   {
+    "q": "What makes the Palm Beach Headache Center different from a general neurologist?",
+    "a": "The center focuses specifically on headache and migraine disorders and is led by Fellows of the American Headache Society, Dr. Paul Winner and Dr. Arnaldo Da Silva. That concentrated expertise, paired with advanced treatments like Botox, neuromodulation, and infusion therapy, means a plan built around your headache pattern. To schedule, call 561-845-0500."
+   },
+   {
+    "q": "What treatments do you offer for chronic migraine?",
+    "a": "Depending on your diagnosis, options may include Botox for chronic migraine, neuromodulation devices, and infusion therapy for difficult attacks. Your physician will recommend what fits your situation. This is general information, not medical advice; call 561-845-0500 to discuss your care."
+   },
+   {
+    "q": "Do I need a referral to be seen at the headache center?",
+    "a": "Referral requirements depend on your insurance plan. Our team can help you understand what your coverage requires. Please call our West Palm Beach office at 561-845-0500 and we will guide you through scheduling."
+   }
+  ],
+  "schema_type": "MedicalClinic"
+ },
+ {
+  "slug": "movement-therapies",
+  "name": "Movement Disorder Therapies",
+  "title": "Movement Disorder Therapies in West Palm Beach, FL",
+  "desc": "Botox for spasticity and dystonia plus deep brain stimulation (DBS) programming, led by movement specialist Dr. Michael Alosilla in West Palm Beach, FL.",
+  "eyebrow": "Movement Disorder Care",
+  "h1": "Movement Disorder <em>Therapies</em>",
+  "lede": "Targeted treatments for the movements you can't fully control — from Botox for spasticity and dystonia to deep brain stimulation programming — guided by movement-disorder specialist Dr. Michael Alosilla, right here in West Palm Beach.",
+  "intro_html": "<p>Some of the most difficult neurologic symptoms are the ones you can see — a tremor that won't settle, muscles that pull the neck or a limb into an uncomfortable posture, or stiffness that makes everyday movement a struggle. At Palm Beach Neurology, movement disorder therapies are the targeted treatments we use to quiet those symptoms and help you move, and live, with more control.</p><p>Two of the tools we offer are botulinum toxin (Botox) injections for spasticity and dystonia, and deep brain stimulation (DBS) programming for Parkinson's disease, essential tremor, and dystonia. Movement-disorder specialist <a href=\"../our-doctors.html\">Dr. Michael Alosilla</a> leads this care from our West Palm Beach office.</p>",
+  "what_html": "<p><strong>Botox for spasticity and dystonia</strong> uses tiny, precisely placed injections to relax overactive muscles. When a muscle contracts too much — causing cramping, twisting, or an abnormal posture — a small amount of botulinum toxin can ease the pull, reduce discomfort, and make movement smoother. The effect builds over a couple of weeks and typically lasts about three months, so treatments are repeated on a schedule that fits how you respond.</p><p><strong>Deep brain stimulation (DBS) programming</strong> is the fine-tuning of a device that a neurosurgeon has already implanted. Thin leads placed in the brain deliver gentle electrical pulses, and a small generator under the skin powers them. Our role is the programming — adjusting the settings over time so the stimulation controls tremor, stiffness, or slowness while keeping side effects to a minimum. Thoughtful programming is what turns an implanted device into real, day-to-day relief.</p>",
+  "expect": [
+   {
+    "title": "A thorough evaluation",
+    "desc": "Dr. Alosilla reviews your history, examines your movement, and confirms the diagnosis so the right therapy is matched to your symptoms."
+   },
+   {
+    "title": "A plan built around you",
+    "desc": "We explain your options in plain English — whether Botox, DBS programming, or another approach fits — along with what results are realistic and how often you will be seen."
+   },
+   {
+    "title": "Your treatment visit",
+    "desc": "Botox injections take only a few minutes in the office, often guided by EMG for accuracy. For DBS, we adjust your device settings and watch how you respond in real time."
+   },
+   {
+    "title": "Follow-up and fine-tuning",
+    "desc": "Movement disorders change over time, so we reassess at each visit and refine your dose or stimulation settings to keep your relief steady."
+   }
+  ],
+  "approach": [
+   {
+    "title": "A dedicated movement-disorder specialist",
+    "desc": "Your care is led by Dr. Michael Alosilla, whose focus is Parkinson's disease and movement disorders, DBS, and Botox — not a rotating list of providers."
+   },
+   {
+    "title": "Precision that protects your results",
+    "desc": "We use careful, anatomy-based injection technique — with EMG guidance when it helps — and methodical DBS programming, because small, deliberate adjustments deliver the best control with the fewest side effects."
+   },
+   {
+    "title": "Care coordinated under one roof",
+    "desc": "Botox, DBS programming, and on-site diagnostic testing all live in one West Palm Beach office, so your treatment and follow-up stay connected and simple."
+   }
+  ],
+  "who_html": "<p>These therapies help people living with <a href=\"../conditions/parkinsons-movement.html\">Parkinson's disease and other movement disorders</a>, including essential tremor, dystonia (such as cervical dystonia or blepharospasm), and spasticity from stroke, multiple sclerosis, or a brain or spinal cord injury. If involuntary movements, stiffness, or muscle tightness are interfering with daily life, an evaluation is the place to start. To find out whether Botox or DBS programming is right for you, call <strong>561-845-0500</strong> or <a href=\"../appointments.html\">request an appointment</a>.</p>",
+  "faqs": [
+   {
+    "q": "Does Palm Beach Neurology implant the DBS device?",
+    "a": "No — the DBS device is placed by a neurosurgeon. Our role is the ongoing programming: adjusting the stimulation settings so the device controls your symptoms as effectively and comfortably as possible. For many people, thoughtful programming is a large part of how well DBS works day to day."
+   },
+   {
+    "q": "How long does a Botox treatment last?",
+    "a": "Most people notice the effect build over one to two weeks, with relief lasting about three months. Because it wears off gradually, injections are repeated on a schedule — usually every few months — tailored to how you respond."
+   },
+   {
+    "q": "Will Botox for spasticity or dystonia make the muscle completely limp?",
+    "a": "The goal is not to shut a muscle off — it is to ease excessive contraction while preserving useful function. The dose is targeted to the specific muscles causing trouble, and we adjust it over time to find the right balance for you."
+   }
+  ],
+  "schema_type": "MedicalProcedure"
+ },
+ {
+  "slug": "telehealth",
+  "name": "Telehealth Neurology",
+  "title": "Telehealth Neurology | Video Visits, West Palm Beach",
+  "desc": "Secure telehealth visits with our West Palm Beach neurologists for appropriate follow-up care across Florida — migraine, MS, epilepsy, memory and more.",
+  "eyebrow": "Virtual Care",
+  "h1": "Telehealth Neurology",
+  "lede": "Some visits don't require a trip to the office. Our neurologists offer secure video appointments for appropriate follow-up care — so patients across Florida can stay on track from home, work, or wherever they are.",
+  "intro_html": "<p>Not every neurology visit requires a trip to our office. For established patients, Palm Beach Neurology &amp; Premiere Research Institute offers secure telehealth visits — private video appointments for appropriate follow-up care with the same neurologists who manage your treatment in person. From our West Palm Beach office we can connect with patients across Florida, so keeping up with your care no longer has to mean rearranging your day.</p><p>Telehealth works best as part of an ongoing plan. It is well suited to reviewing how a treatment is working, fine-tuning medications, going over results, and answering questions between visits. Hands-on care — testing such as EEG or EMG, Botox injections, and infusion therapy — still happens in the office, and your neurologist will let you know when an in-person visit is the right call. Ready to begin? <a href=\"../appointments.html\">Request an appointment</a> and our front desk will help you choose the right visit type.</p>",
+  "what_html": "<p>A telehealth visit is simply a scheduled appointment that takes place over a secure video connection instead of in an exam room. Using a smartphone, tablet, or computer with a camera, you meet face to face with your neurologist, talk through how you are doing, review symptoms and any recent results, and update your plan together — all without leaving home.</p><p>You will need a private, well-lit spot, a reliable internet connection, and a list of your current medications handy. Because of how telehealth is regulated, you should be physically located in Florida at the time of your visit. Everything else works much like an office appointment: your neurologist can order tests, send prescriptions to your pharmacy, and schedule any in-person follow-up you may need.</p>",
+  "who_html": "<p>Telehealth is a good fit for many established patients managing an ongoing condition — a medication check-in for <a href=\"../conditions/headaches-migraine.html\">headache &amp; migraine</a>, a routine follow-up for <a href=\"../conditions/multiple-sclerosis.html\">multiple sclerosis</a>, or a family update in <a href=\"../conditions/memory-alzheimers.html\">memory &amp; Alzheimer's</a> care. It's the same physician who already knows your history, whether that's headache care with Paul Winner, DO, or MS care with Robert Coppola, DO. New-patient evaluations, hands-on testing, and any sudden or severe symptoms are best handled in person — and a medical emergency always means calling 911.</p>",
+  "expect": [
+   {
+    "title": "Request your visit",
+    "desc": "Call our office at 561-845-0500 or request an appointment online. Our front desk will confirm that a video visit fits your situation and set a time that works for you."
+   },
+   {
+    "title": "Get connected",
+    "desc": "You'll receive simple instructions and a secure link before your appointment — no complicated software to figure out, just a device with a camera and an internet connection."
+   },
+   {
+    "title": "Meet your neurologist",
+    "desc": "At your appointment time, join the video visit from anywhere in Florida and talk with your physician face to face, just as you would in the office."
+   },
+   {
+    "title": "Review and adjust",
+    "desc": "Together you'll go over symptoms, recent test results, and how your treatment is working, then update medications and your care plan as needed."
+   },
+   {
+    "title": "Leave with a clear plan",
+    "desc": "Prescriptions are sent to your pharmacy, and we'll schedule any in-person testing or follow-up before you sign off — so you always know the next step."
+   }
+  ],
+  "approach": [
+   {
+    "title": "Care from a neurologist who knows you",
+    "desc": "Your video visit is with your own physician, not a stranger — the specialist who already understands your history, your goals, and your treatment plan."
+   },
+   {
+    "title": "The right visit for the moment",
+    "desc": "We help you sort which needs are well suited to video and which call for the office, so telehealth adds convenience without ever cutting corners on your care."
+   },
+   {
+    "title": "Private and secure by design",
+    "desc": "Visits take place over a protected, HIPAA-appropriate connection, with the same respect for your privacy you'd expect sitting in our West Palm Beach office."
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Who can be seen by telehealth?",
+    "a": "Video visits are intended for established patients located in Florida who need appropriate follow-up care — medication check-ins, results reviews, and ongoing management. New-patient evaluations and hands-on testing are done in the office. If you're not sure which you need, call us at 561-845-0500 and we'll help you decide."
+   },
+   {
+    "q": "What do I need for a video visit?",
+    "a": "A smartphone, tablet, or computer with a working camera, a reliable internet connection, and a quiet, private spot. Keep your current medication list nearby, and plan to be physically located in Florida at your appointment time."
+   },
+   {
+    "q": "Can you refill or prescribe medications during a telehealth visit?",
+    "a": "In many cases, yes — your neurologist can send prescriptions to your pharmacy when it is clinically appropriate. Certain medications require an in-person visit. For questions about a specific prescription, call the office at 561-845-0500."
+   }
+  ],
+  "schema_type": "MedicalTherapy"
+ }
+]
